@@ -1,14 +1,55 @@
-Overview
-Tired of boring button-centric UI? Well...in iOS it's easy to implement interactive gestures and fun animations to give your UI some well deserved pop! In this lab you'll build an app that allows users to interact with characters from the iconic video game, Mario Kart, panning, scaling, rotating and then sending them zooming off the screen! 🏎
+# Lab Unit 4 - MarioKart - Gestures & Animations
 
-User Story Tiers
-The user stories for this lab are split up into 3 tiers. Tier 1 stories will introduce the core concepts of working with gestures and animations. Your goal should be to get through Tier 1 stories during your in-class lab time.
+Tumblr is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
-After completing Tier 1 stories you'll be able to...
+Time spent: 3 hours spent in total
 
-Use gestures to trigger events.
-Use gestures to move and transform views.
-Use animations to transition views between various positions and transformations.
-Tier 2 & 3 stories build on the core concepts from tier 1 and yield a more complete and nuanced app. Try out Tier 2-3 outside of class if you really find gestures & animations intriguing or go back to them later if you want to include some of these features in your group project app.
+## User Stories
+
+The following **required** user stories are complete:
+
+- [x] Use gestures to trigger events.
+- [x] Use gestures to move and transform views.
+- [x] Use animations to transition views between various positions and transformations.
+- [x] User can move karts around the screen using a pan gesture.
 
 
+The following **stretch** user stories are implemented:
+
+
+The following **additional** user stories are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
+
+Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
+
+1.
+2.
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://i.imgur.com/suLlvWq.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+Describe any challenges encountered while building the app.
+
+## License
+
+Copyright [2019] [Pann Cherry]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
