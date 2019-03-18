@@ -16,5 +16,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func didPanKartView(_ sender: UIPanGestureRecognizer) {
+    }
+    
 }
 
