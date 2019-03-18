@@ -61,9 +61,15 @@ class ViewController: UIViewController {
     
     
     @IBAction func didLongPressBackground(_ sender: UILongPressGestureRecognizer) {
-        kart0ImageView.center = startingPointKartView0
-        kart1ImageView.center = startingPointKartView1
-        kart2ImageView.center = startingPointKartView2
+        UIView.animate(withDuration: 0.8) {
+            self.kart0ImageView.center = self.startingPointKartView0
+            self.kart1ImageView.center = self.startingPointKartView1
+            self.kart2ImageView.center = self.startingPointKartView2
+            self.kart0ImageView.transform = CGAffineTransform.identity
+            self.kart1ImageView.transform = CGAffineTransform.identity
+            self.kart2ImageView.transform = CGAffineTransform.identity
+        }
+        
     }
 }
 
