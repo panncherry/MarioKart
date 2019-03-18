@@ -11,14 +11,17 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var kart0ImageView: UIImageView!
-    
     @IBOutlet weak var kart1ImageView: UIImageView!
-    
     @IBOutlet weak var kart2ImageView: UIImageView!
+    var startingPointKartView0 = CGPoint()
+    var startingPointKartView1 = CGPoint()
+    var startingPointKartView2 = CGPoint()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        startingPointKartView0 = kart0ImageView.center
+        startingPointKartView1 = kart1ImageView.center
+        startingPointKartView2 = kart2ImageView.center
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -56,5 +59,11 @@ class ViewController: UIViewController {
         }
     }
     
+    
+    @IBAction func didLongPressBackground(_ sender: UILongPressGestureRecognizer) {
+        kart0ImageView.center = startingPointKartView0
+        kart1ImageView.center = startingPointKartView1
+        kart2ImageView.center = startingPointKartView2
+    }
 }
 

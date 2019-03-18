@@ -21,6 +21,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="LHy-zf-lMt">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="zih-iH-pbj" appends="YES" id="WfH-U3-TX6"/>
+                                </connections>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kart_0" translatesAutoresizingMaskIntoConstraints="NO" id="E10-wS-VKe">
                                 <rect key="frame" x="145" y="517" width="65" height="109"/>
@@ -31,6 +35,7 @@
                                     <outletCollection property="gestureRecognizers" destination="qM6-cm-D3w" appends="YES" id="eBR-1R-l7N"/>
                                     <outletCollection property="gestureRecognizers" destination="9lj-iV-hZe" appends="YES" id="AFQ-AE-nQm"/>
                                     <outletCollection property="gestureRecognizers" destination="dJv-rA-ppH" appends="YES" id="d3P-7n-QaE"/>
+                                    <outletCollection property="gestureRecognizers" destination="82X-kb-6Yl" appends="YES" id="CMJ-Iu-3of"/>
                                 </connections>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kart_2" translatesAutoresizingMaskIntoConstraints="NO" id="yqx-i1-WPo">
@@ -42,6 +47,7 @@
                                     <outletCollection property="gestureRecognizers" destination="g1m-pj-xYU" appends="YES" id="k9z-4W-efj"/>
                                     <outletCollection property="gestureRecognizers" destination="7v4-vh-pgL" appends="YES" id="ets-By-gTO"/>
                                     <outletCollection property="gestureRecognizers" destination="Ncg-2t-dAx" appends="YES" id="eTb-R3-MWr"/>
+                                    <outletCollection property="gestureRecognizers" destination="lNK-sI-HFn" appends="YES" id="MdR-aj-cHD"/>
                                 </connections>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kart_1" translatesAutoresizingMaskIntoConstraints="NO" id="sRB-Jo-VS5">
@@ -53,6 +59,7 @@
                                     <outletCollection property="gestureRecognizers" destination="nZX-fd-8UV" appends="YES" id="qYO-ou-diV"/>
                                     <outletCollection property="gestureRecognizers" destination="dUd-h0-Fjn" appends="YES" id="dm6-oP-bgb"/>
                                     <outletCollection property="gestureRecognizers" destination="Epr-zy-ICH" appends="YES" id="VBp-XF-iQk"/>
+                                    <outletCollection property="gestureRecognizers" destination="keV-ya-NbO" appends="YES" id="ZRq-SC-cXn"/>
                                 </connections>
                             </imageView>
                         </subviews>
@@ -126,6 +133,14 @@
                         <action selector="didTapKartView:" destination="BYZ-38-t0r" id="N77-k3-igh"/>
                     </connections>
                 </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="zih-iH-pbj">
+                    <connections>
+                        <action selector="didLongPressBackground:" destination="BYZ-38-t0r" id="7x8-a5-h7s"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="82X-kb-6Yl"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="keV-ya-NbO"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="lNK-sI-HFn"/>
             </objects>
             <point key="canvasLocation" x="136.23188405797103" y="132.88043478260872"/>
         </scene>
