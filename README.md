@@ -1,6 +1,6 @@
 # Lab Unit 4 - MarioKart - Gestures & Animations
 
-Tumblr is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
+MarioKart is an app that allows users to interact with characters from the iconic video game, Mario Kart, panning, scaling, rotating and then sending them zooming off the screen!
 
 Time spent: 3 hours spent in total
 
@@ -30,7 +30,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/suLlvWq.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/shRDp0C.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
