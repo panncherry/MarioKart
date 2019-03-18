@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var kart0ImageView: UIImageView!
+    
+    @IBOutlet weak var kart1ImageView: UIImageView!
+    
+    @IBOutlet weak var kart2ImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

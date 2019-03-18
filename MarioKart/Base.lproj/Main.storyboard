@@ -59,6 +59,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="kart0ImageView" destination="E10-wS-VKe" id="1Rf-df-qfU"/>
+                        <outlet property="kart1ImageView" destination="sRB-Jo-VS5" id="4Q2-uP-v3x"/>
+                        <outlet property="kart2ImageView" destination="yqx-i1-WPo" id="MmU-IN-4se"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="ecB-5C-LgH">
