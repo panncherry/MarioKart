@@ -65,6 +65,5 @@ class ViewController: UIViewController {
             self.kart1ImageView.transform = CGAffineTransform.identity
             self.kart2ImageView.transform = CGAffineTransform.identity
         }
-        
     }
 }

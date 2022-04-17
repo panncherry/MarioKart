@@ -15,27 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="LHy-zf-lMt">
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="LHy-zf-lMt">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="zih-iH-pbj" appends="YES" id="WfH-U3-TX6"/>
                                 </connections>
                             </imageView>
-                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kart_0" translatesAutoresizingMaskIntoConstraints="NO" id="E10-wS-VKe">
-                                <rect key="frame" x="145" y="517" width="65" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="qXZ-NJ-P4y" appends="YES" id="mCA-f4-T0u"/>
-                                    <outletCollection property="gestureRecognizers" destination="qM6-cm-D3w" appends="YES" id="eBR-1R-l7N"/>
-                                    <outletCollection property="gestureRecognizers" destination="9lj-iV-hZe" appends="YES" id="AFQ-AE-nQm"/>
-                                    <outletCollection property="gestureRecognizers" destination="82X-kb-6Yl" appends="YES" id="CMJ-Iu-3of"/>
-                                    <outletCollection property="gestureRecognizers" destination="dJv-rA-ppH" appends="YES" id="AgP-gJ-C62"/>
-                                </connections>
-                            </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kart_2" translatesAutoresizingMaskIntoConstraints="NO" id="yqx-i1-WPo">
-                                <rect key="frame" x="69" y="555" width="94" height="120"/>
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kart_2" translatesAutoresizingMaskIntoConstraints="NO" id="yqx-i1-WPo">
+                                <rect key="frame" x="172" y="617" width="65" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
@@ -46,8 +34,8 @@
                                     <outletCollection property="gestureRecognizers" destination="lNK-sI-HFn" appends="YES" id="MdR-aj-cHD"/>
                                 </connections>
                             </imageView>
-                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kart_1" translatesAutoresizingMaskIntoConstraints="NO" id="sRB-Jo-VS5">
-                                <rect key="frame" x="20" y="457" width="65" height="90"/>
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kart_1" translatesAutoresizingMaskIntoConstraints="NO" id="sRB-Jo-VS5">
+                                <rect key="frame" x="67" y="617" width="65" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
@@ -56,6 +44,18 @@
                                     <outletCollection property="gestureRecognizers" destination="dUd-h0-Fjn" appends="YES" id="dm6-oP-bgb"/>
                                     <outletCollection property="gestureRecognizers" destination="Epr-zy-ICH" appends="YES" id="VBp-XF-iQk"/>
                                     <outletCollection property="gestureRecognizers" destination="keV-ya-NbO" appends="YES" id="ZRq-SC-cXn"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kart_0" translatesAutoresizingMaskIntoConstraints="NO" id="E10-wS-VKe">
+                                <rect key="frame" x="269" y="627" width="65" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="qXZ-NJ-P4y" appends="YES" id="mCA-f4-T0u"/>
+                                    <outletCollection property="gestureRecognizers" destination="qM6-cm-D3w" appends="YES" id="eBR-1R-l7N"/>
+                                    <outletCollection property="gestureRecognizers" destination="9lj-iV-hZe" appends="YES" id="AFQ-AE-nQm"/>
+                                    <outletCollection property="gestureRecognizers" destination="82X-kb-6Yl" appends="YES" id="CMJ-Iu-3of"/>
+                                    <outletCollection property="gestureRecognizers" destination="dJv-rA-ppH" appends="YES" id="AgP-gJ-C62"/>
                                 </connections>
                             </imageView>
                         </subviews>
